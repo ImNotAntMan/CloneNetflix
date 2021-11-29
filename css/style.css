@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bdg {
+    border: 1px solid red;
+}
+
+.showcase {
+    width: 100%;
+    height: 937px;
+    background: url(/img/background.jpg);
+    position: relative;
+}
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+.showcase li {
+    list-style: none;
+    float: right;
+    color: white;
+}
+
+.showcase-top {
+    width: 100%;
+    height: 60px;
+    float: right;
+    position: absolute;
+} 
+
+.gb_app {
+    position: absolute;
+    height: 60px;
+    float: left;
+    border: 1px solid white;
+}
+.showcase-contents {
+    position: absolute;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -30%);
+    border: 0px solid red;
+    /* width: 70%;
+    height: 100%;
+    text-align: center;
+    position: absolute; */
+}
+
+.showcase-contents h1 {
+    font-size: 80px;
+}
+.svg-icon-netflix-logo {
+    width: 160px;
+    height: 60px;
+}
