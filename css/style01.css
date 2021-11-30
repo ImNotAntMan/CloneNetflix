@@ -6,7 +6,7 @@
 }
 
 .bdg {
-    border: 1px solid rebeccapurple;
+    border: 0px solid rebeccapurple;
 }
 
 .netflix {
@@ -33,19 +33,21 @@
 .netflix-logo {
     width: 100%;
     height: 10vh;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .top-left {
     width: 136px;
     height: 50px;
     float: left;
-    margin-right: 1em;
-    line-height: 50px;
+    margin-left: 2em;
+    line-height: 40px;
 }
 
 .top-right {
     float: right;
+    margin-right: 2em;
+    line-height: 40px;
 }
 
 .btn-sign-in {
@@ -95,8 +97,23 @@ input[type=email] {
 
 .container-01 {
     display: flex;
+    padding: 80px;
     background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    justify-items: center;
 }
+
+.container-01  h1 {
+    font-size: 4em;
+    justify-content: center;
+}
+
+.container-01  h2 {
+    font-size: 2.5em;
+    justify-content: center;
+}
+
 .contents {
     text-align: center;
     vertical-align: middle;
